@@ -1,0 +1,64 @@
+
+/* Body of webpage Styles */
+body {
+margin:0px;
+background-color: #e9edee;
+}
+
+
+.title {
+margin-left: 20px;
+margin-right: 20px;
+} 
+
+/* Navigation Bar Styles */
+.navbar ul{
+    list-style-type: none;
+    background-color: #10272E;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.navbar a{
+    color: #ecf5f8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+
+}
+.navbar a:hover{
+    background-color: #262e30;
+}
+
+.navbar li{
+    width: 25%;
+    text-align:center;
+}
+ 
+/* Header Styles */
+header {
+    background-color: #005566;
+    padding: 100px;
+    text-align: center;
+}
+
+/* Leaflet Interactive Map Layout Styles */
+.map {
+  height: 480px; 
+}
+
+/* Footer Styles */
+footer {
+  background-color: #262e30;
+  text-align: center;
+  padding: 8px;
+}
